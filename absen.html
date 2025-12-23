@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Absensi Pegawai</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Absensi Pegawai</h2>
+
+<label>Nama</label>
+<select id="nama">
+  <option value="">-- Pilih Nama --</option>
+  <option>Jenny Rahma Hidaya</option>
+  <option>Niken</option>
+  <option>Ica</option>
+  <option>Eliya</option>
+  <option>Elthan</option>
+  <option>Risky</option>
+  <option>Meigy</option>
+  <option>Merry</option>
+  <option>Deva</option>
+  <option>Juwita</option>
+  <option>Nurul</option>
+  <option>Acing</option>
+  <option>Tiara</option>
+  <option>Siswandi</option>
+  <option>Eva</option>
+  <option>Fhita</option>
+  <option>Ghita</option>
+  <option>Rika</option>
+  <option>Shanti</option>
+  <option>Iis</option>
+  <option>Annisa</option>
+  <option>Lika</option>
+</select>
+
+<label>PIN</label>
+<input type="password" id="pin" placeholder="PIN 4 digit">
+
+<br><br>
+
+<button onclick="absen('masuk')">Absen Masuk</button>
+<button onclick="absen('pulang')">Absen Pulang</button>
+
+<p id="status"></p>
+
+<script src="js/absen.js"></script>
+</body>
+</html>
