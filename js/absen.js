@@ -1,4 +1,4 @@
-const API_URL = "PASTE_URL_APPS_SCRIPT_DI_SINI";
+const API_URL = "https://script.google.com/macros/s/AKfycbyfiQbxRz7qwGjkf3Tm6xxfV8-kJiVDewBnrruZ3uJA-2FKN7V021ljaRJGxD9wcVjB/exec";
 
 function absen(jenis) {
   const nama = document.getElementById("nama").value;
